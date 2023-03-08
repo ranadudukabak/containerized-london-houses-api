@@ -15,6 +15,6 @@ After preparing your Dockerfile so you can run the application in docker, run th
 
 $ docker build -t housing-api .
 <br />
-$ docker run -p 3000:3000 -d housing-api // Runs your docker image in a docker container
+$ docker run -p 3001:3001 -d housing-api // Runs your docker image in a docker container
 <br />
 $ docker images // Displays your docker image
